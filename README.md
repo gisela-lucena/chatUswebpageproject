@@ -1,4 +1,4 @@
-# Projeto 2: Biblioteca Triple Peaks
+# Projeto 2: ChatUs Web page project
 
 A página da ChatUs é o segundo projeto no programa de desenvolvimento web na TripleTen. Ela foi criada usando HTML e CSS.
 
