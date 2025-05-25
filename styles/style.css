@@ -1,0 +1,257 @@
+.page {
+  min-width: 1100px;
+  max-width: 1600px;
+  margin: auto;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  min-height: 720px;
+  max-height: 800px;
+  padding: 30px 80px 0;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav__logo {
+  width: 58px;
+  height: 80px;
+}
+
+.nav__brand-title {
+  font-size: 20px;
+  margin: 0;
+  margin-top: 8px;
+  font-style: italic;
+  font-weight: bold;
+  border-bottom: 3px solid #2f80ed;
+}
+
+.nav__links {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+  margin-top: 8px;
+  list-style-type: none;
+  column-gap: 20px;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.nav__link:hover {
+  cursor: pointer;
+  border-bottom: 3px solid #2f80ed;
+}
+
+.header__content {
+  margin-top: 128px;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__brand {
+  height: min-content;
+}
+
+.header__title {
+  max-width: 700px;
+  font-size: 62px;
+  line-height: 76px;
+  font-weight: 500;
+  margin: 0 0 32px;
+}
+
+.header__brand-name {
+  color: #2f80ed;
+  font-style: italic;
+}
+
+.header__description {
+  max-width: 515px;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0px;
+}
+
+.header__image {
+  width: 50%;
+  object-fit: contain;
+  position: relative;
+  top: -50px;
+  right: -220px;
+}
+
+.people {
+  background-image: url(../images/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0 140px;
+}
+
+.people__title {
+  text-align: center;
+  font-size: 44px;
+  line-height: 52px;
+  font-weight: 400;
+  margin: 0 0 24px;
+  color: white;
+}
+
+.people__subtitle {
+  text-align: center;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  margin: 0;
+  color: white;
+}
+.people__cards {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  max-width: 900px;
+  margin: 68px auto 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 32px 40px;
+  box-sizing: border-box;
+  height: 420px;
+  width: 400px;
+}
+
+.card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid gray;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.card__title {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.card__text {
+  margin: 20px 0 0;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.card__footer {
+  margin: 0;
+  font-size: 14px;
+  line-height: 20px;
+  color: #838383;
+  margin-top: auto;
+}
+
+.card__chat-icon {
+  width: 20px;
+  border: 2px solid rgba(150, 150, 150, 0.7);
+  padding: 8px;
+  border-radius: 6px;
+}
+
+.card__person {
+  display: flex;
+  justify-content: center;
+  column-gap: 8px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.card__avatar {
+  object-fit: contain;
+  flex: 1;
+}
+
+.card__info {
+  flex: 2;
+}
+
+.card__info-name {
+  margin: 0;
+}
+
+.card__info-date {
+  margin: 0;
+  margin-top: 8px;
+  color: gray;
+}
+
+.card__status {
+  display: flex;
+  align-items: center;
+}
+
+.card__status-now {
+  margin: 0;
+  padding: 8px;
+  background-color: lightgreen;
+  border-radius: 12px;
+  color: darkgreen;
+}
+
+.card__status-now_color_red {
+  background-color: #f08080;
+  color: #8b0000;
+}
+.card__status-now_color_yellow {
+  background-color: lightyellow;
+  color: gold;
+}
+
+.card__arrow-icon {
+  width: 32px;
+}
+
+.card__button {
+  width: 100%;
+  margin-top: 10px;
+  padding: 16px 0;
+  background-color: #2f80ed;
+  color: white;
+  font-size: 20px;
+  border: none;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.card__button:hover {
+  background-color: hsl(214, 84%, 30%);
+}

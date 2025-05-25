@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scagle=1.0" />
+    <meta name="description" content="Meu site sobre chatting e programação" />
+    <link rel="shortcut icon" href="./favicon.png" type="imae/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>ChatUs</title>
+  </head>
+
+  <body>
+    <div class="page">
+      <header class="header">
+        <div class="nav">
+          <div class="nav__brand">
+            <img src="./images/avatar.png" alt="logo" class="nav__logo" />
+            <h1 class="nav__brand-title">ChatUs</h1>
+          </div>
+
+          <nav>
+            <ul class="nav__links">
+              <li><a href="#people" class="nav__link">Pessoas ligadas</a></li>
+              <li><a href="#" class="nav__link">Conversas</a></li>
+              <li><a href="#" class="nav__link">Seja membro</a></li>
+              <li><a href="#" class="nav__link">Contatos</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="header__content">
+          <div class="header__brand">
+            <h2 class="header__title">
+              Bem-vindo ao <span class="header__brand-name">ChatUs</span>
+            </h2>
+            <p class="header__description">
+              Venha conversar com nossos participantes e melhore seus
+              conhecimentos, ou apenas use esse belo local para fazer novas
+              amizades ou estudar. Esse é um lugar legal distrair e usar seu
+              tempo livre!
+            </p>
+          </div>
+
+          <img
+            src="./images/header-content.svg"
+            alt="Chatting"
+            class="header__image"
+          />
+        </div>
+      </header>
+
+      <main class="content">
+        <section class="people" id="people">
+          <h2 class="people__title">Escolha sua area</h2>
+          <p class="people__subtitle">Que as pessoas te encontrem</p>
+
+          <ul class="people__cards">
+            <li class="card">
+              <div class="card__header">
+                <h3 class="card__title">Tecnologia</h3>
+                <img
+                  src="./images/chat.svg"
+                  alt="chatting icon"
+                  class="card__chat-icon"
+                />
+              </div>
+
+              <div>
+                <div class="card__person">
+                  <img
+                    src="./images/avatar.png"
+                    alt="avatar"
+                    class="card__avatar"
+                  />
+                  <div class="card__info">
+                    <h4 class="card__info-name">Gisela Lucena</h4>
+                    <p class="card__info-date">18/05/2024 12:42</p>
+                  </div>
+                  <div class="card__status">
+                    <p class="card__status-now">Online</p>
+                    <img
+                      src="./images/arrow.png"
+                      alt="botão de chat"
+                      class="card__arrow-icon"
+                    />
+                  </div>
+                </div>
+
+                <div class="card__person">
+                  <img
+                    src="./images/avatar.png"
+                    alt="avatar"
+                    class="card__avatar"
+                  />
+                  <div class="card__info">
+                    <h4 class="card__info-name">Joey Elia</h4>
+                    <p class="card__info-date">18/05/2024 08:32</p>
+                  </div>
+                  <div class="card__status">
+                    <p class="card__status-now card__status-now_color_red">
+                      Offline
+                    </p>
+                    <img
+                      src="./images/arrow.png"
+                      alt="botão de chat"
+                      class="card__arrow-icon"
+                    />
+                  </div>
+                </div>
+
+                <div class="card__person">
+                  <img
+                    src="./images/avatar.png"
+                    alt="avatar"
+                    class="card__avatar"
+                  />
+                  <div class="card__info">
+                    <h4 class="card__info-name">William Sokol</h4>
+                    <p class="card__info-date">18/05/2024 18:50</p>
+                  </div>
+                  <div class="card__status">
+                    <p class="card__status-now card__status-now_color_yellow">
+                      Hosting
+                    </p>
+                    <img
+                      src="./images/arrow.png"
+                      alt="botão de chat"
+                      class="card__arrow-icon"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <button class="card__button">ChatUs</button>
+            </li>
+
+            <li class="card">
+              <div class="card__header">
+                <h3 class="card__title">Arquitetura</h3>
+                <img
+                  src="./images/chat.svg"
+                  alt="botão de chat"
+                  class="card__chat-icon"
+                />
+              </div>
+              <div>
+                <div class="card__person">
+                  <img
+                    src="./images/avatar.png"
+                    alt="avatar"
+                    class="card__avatar"
+                  />
+                  <div class="card__info">
+                    <h4 class="card__info-name">Joey Elia</h4>
+                    <p class="card__info-date">05/05/2024 18:50</p>
+                  </div>
+                  <div class="card__status">
+                    <p class="card__status-now">Online</p>
+                    <img
+                      src="./images/arrow.png"
+                      alt="botão de chat"
+                      class="card__arrow-icon"
+                    />
+                  </div>
+                </div>
+
+                <div class="card__person">
+                  <img
+                    src="./images/avatar.png"
+                    alt="avatar"
+                    class="card__avatar"
+                  />
+                  <div class="card__info">
+                    <h4 class="card__info-name">William Sokol</h4>
+                    <p class="card__info-date">02/04/2024 08:32</p>
+                  </div>
+                  <div class="card__status">
+                    <p class="card__status-now card__status-now_color_red">
+                      Offline
+                    </p>
+                    <img
+                      src="./images/arrow.png"
+                      alt="botão de chat"
+                      class="card__arrow-icon"
+                    />
+                  </div>
+                </div>
+
+                <div class="card__person">
+                  <img
+                    src="./images/avatar.png"
+                    alt="avatar"
+                    class="card__avatar"
+                  />
+                  <div class="card__info">
+                    <h4 class="card__info-name">Gisela Lucena</h4>
+                    <p class="card__info-date">05/05/2024 18:50</p>
+                  </div>
+                  <div class="card__status">
+                    <p class="card__status-now card__status-now_color_yellow">
+                      Hosting
+                    </p>
+                    <img
+                      src="./images/arrow.png"
+                      alt="botão de chat"
+                      class="card__arrow-icon"
+                    />
+                  </div>
+                </div>
+              </div>
+              <button class="card__button">ChatUs</button>
+            </li>
+
+            <li class="card">
+              <div class="card__header">
+                <h3 class="card__title">Economia</h3>
+                <img
+                  src="./images/chat.svg"
+                  alt="botão de chat"
+                  class="card__chat-icon"
+                />
+              </div>
+              <div>
+                <div class="card__person">
+                  <img
+                    src="./images/avatar.png"
+                    alt="avatar"
+                    class="card__avatar"
+                  />
+                  <div class="card__info">
+                    <h4 class="card__info-name">Joyce Lucena</h4>
+                    <p class="card__info-date">05/05/2024 18:50</p>
+                  </div>
+                  <div class="card__status">
+                    <p class="card__status-now">Online</p>
+                    <img
+                      src="./images/arrow.png"
+                      alt="botão de chat"
+                      class="card__arrow-icon"
+                    />
+                  </div>
+                </div>
+
+                <div class="card__person">
+                  <img
+                    src="./images/avatar.png"
+                    alt="avatar"
+                    class="card__avatar"
+                  />
+                  <div class="card__info">
+                    <h4 class="card__info-name">Flavia Hummel</h4>
+                    <p class="card__info-date">02/04/2024 08:32</p>
+                  </div>
+                  <div class="card__status">
+                    <p class="card__status-now card__status-now_color_red">
+                      Offline
+                    </p>
+                    <img
+                      src="./images/arrow.png"
+                      alt="botão de chat"
+                      class="card__arrow-icon"
+                    />
+                  </div>
+                </div>
+
+                <div class="card__person">
+                  <img
+                    src="./images/avatar.png"
+                    alt="avatar"
+                    class="card__avatar"
+                  />
+                  <div class="card__info">
+                    <h4 class="card__info-name">Sienna Sokol</h4>
+                    <p class="card__info-date">05/05/2024 18:50</p>
+                  </div>
+                  <div class="card__status">
+                    <p class="card__status-now card__status-now_color_yellow">
+                      Hosting
+                    </p>
+                    <img
+                      src="./images/arrow.png"
+                      alt="botão de chat"
+                      class="card__arrow-icon"
+                    />
+                  </div>
+                </div>
+              </div>
+              <button class="card__button">ChatUs</button>
+            </li>
+
+            <li class="card">
+              <div class="card__header">
+                <h3 class="card__title">Filosofia</h3>
+                <img
+                  src="./images/chat.svg"
+                  alt="botão de chat"
+                  class="card__chat-icon"
+                />
+              </div>
+              <div>
+                <div class="card__person">
+                  <img
+                    src="./images/avatar.png"
+                    alt="avatar"
+                    class="card__avatar"
+                  />
+                  <div class="card__info">
+                    <h4 class="card__info-name">Gisela Lucena</h4>
+                    <p class="card__info-date">05/05/2024 18:50</p>
+                  </div>
+                  <div class="card__status">
+                    <p class="card__status-now">Online</p>
+                    <img
+                      src="./images/arrow.png"
+                      alt="botão de chat"
+                      class="card__arrow-icon"
+                    />
+                  </div>
+                </div>
+
+                <div class="card__person">
+                  <img
+                    src="./images/avatar.png"
+                    alt="avatar"
+                    class="card__avatar"
+                  />
+                  <div class="card__info">
+                    <h4 class="card__info-name">Joey Elia</h4>
+                    <p class="card__info-date">02/04/2024 08:32</p>
+                  </div>
+                  <div class="card__status">
+                    <p class="card__status-now card__status-now_color_red">
+                      Offline
+                    </p>
+                    <img
+                      src="./images/arrow.png"
+                      alt="botão de chat"
+                      class="card__arrow-icon"
+                    />
+                  </div>
+                </div>
+
+                <div class="card__person">
+                  <img
+                    src="./images/avatar.png"
+                    alt="avatar"
+                    class="card__avatar"
+                  />
+                  <div class="card__info">
+                    <h4 class="card__info-name">Livia Lucena</h4>
+                    <p class="card__info-date">05/05/2024 18:50</p>
+                  </div>
+                  <div class="card__status">
+                    <p class="card__status-now card__status-now_color_yellow">
+                      Hosting
+                    </p>
+                    <img
+                      src="./images/arrow.png"
+                      alt="botão de chat"
+                      class="card__arrow-icon"
+                    />
+                  </div>
+                </div>
+              </div>
+              <button class="card__button">ChatUs</button>
+            </li>
+          </ul>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
